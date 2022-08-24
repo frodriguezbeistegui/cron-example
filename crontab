@@ -1,0 +1,4 @@
+* * * * * root echo "hello from container $(date)" >> /var/log/cron.log 2>&1
+* * * * * root node /etc/app/app.js >> /var/log/cron.log 2>&1
+#Empty line
+
